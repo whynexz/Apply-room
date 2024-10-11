@@ -1,0 +1,4 @@
+version: 1
+update: true
+blank_issues_enabled: false
+default: candidate form
