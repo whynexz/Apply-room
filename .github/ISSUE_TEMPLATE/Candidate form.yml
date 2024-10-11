@@ -48,11 +48,3 @@ body:
       placeholder: "Enter a link to your project"
     validations:
       required: true
-      format: url
-
-  - type: checkbox
-    id: agree
-    attributes:
-      label: "I agree to abide by the organization's code of conduct."
-    validations:
-      required: true
