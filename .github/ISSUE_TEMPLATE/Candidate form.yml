@@ -1,0 +1,53 @@
+name: candidate form
+description: Fill out this form to request joining our organization.
+title: "[Join Request] - {your name}"
+labels: [candidate]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in joining our organization! Please provide the following information:
+
+  - type: input
+    id: name
+    attributes:
+      placeholder: "Your Full Name"
+    validations:
+      required: true
+
+  - type: input
+    id: email
+    attributes:
+      placeholder: "Your Email Address"
+    validations:
+      required: true
+      format: email
+
+  - type: textarea
+    id: reason
+    attributes:
+      placeholder: "Why do you want to join our organization?"
+    validations:
+      required: true
+
+  - type: input
+    id: github_username
+    attributes:
+      placeholder: "Your GitHub Username"
+    validations:
+      required: true
+
+  - type: input
+    id: project_link
+    attributes:
+      placeholder: "Link to Your Project"
+    validations:
+      required: true
+      format: url
+
+  - type: checkbox
+    id: agree
+    attributes:
+      label: "I agree to abide by the organization's code of conduct."
+    validations:
+      required: true
