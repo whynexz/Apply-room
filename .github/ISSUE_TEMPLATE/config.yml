@@ -1,4 +1,4 @@
 version: 1
 update: true
-blank_issues_enabled: false
-default: Candidate form
+default: candidate_form
+
